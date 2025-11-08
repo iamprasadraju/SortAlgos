@@ -9,7 +9,7 @@ int main(){
     int tmp;
     int i = 1;
     while(i < size){
-        key = arr[i]
+        int key = arr[i];
         int j = i;
         while(j > 0 && arr[j - 1] > arr[j]){
             arr[j] = arr[j - 1];
